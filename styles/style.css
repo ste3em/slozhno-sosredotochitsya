@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
-  height: 91vh;
+  height: 768px;
   min-height: 668px;
   margin-block-end: 60px;
   padding: 20px 20px 20px 20px;
@@ -305,7 +305,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 91vh;
+  height: 768px;
   min-height: 668px;
   padding: 20px;
 }
