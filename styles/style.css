@@ -1,16 +1,16 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   
-  height: 91vh;
   background-color: var(--background-color);
   background-image: var(--background-image);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: center top;
+  background-size: auto 768px;
+  background-attachment: fixed;
 }
-
 
 .header {
   display: grid;
@@ -21,7 +21,6 @@
   margin-block-end: 60px;
   padding: 20px 20px 20px 20px;
 }
-
 
 .decorated-zone {
   position: relative;
@@ -48,7 +47,6 @@
   border-bottom: 1px solid var(--decorated-zone, #FF0070);
   border-left: 1px solid var(--decorated-zone, #FF0070);
 }
-
 
 .header__theme-menu-list {
   display: flex;
@@ -329,12 +327,6 @@
   }
 }
 
-/* @media (768px < width) {
-  .desktop-title-decor {
-    text-shadow: 2px 2px 0px var(--accent-color);
-  }
-} */
-
 @media (width <= 768px) {
     
   .page {
@@ -420,6 +412,10 @@
 }
 
 @media (width <= 620px) {
+  .page {
+    background-size: auto 668px;
+  }
+  
   .header {
     height: 79vh;
     margin-block-end: 40px;
@@ -542,10 +538,10 @@
   }
 
   .footer.decorated-zone::before {
-    top: 9px;
+    top: 10px;
   }
 
   .footer.decorated-zone::after {
-    bottom: 12px;
+    bottom: 10px;
   }
 }
