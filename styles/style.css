@@ -157,7 +157,7 @@
 
 .content__title {
   margin-block-end: 20px;
-  color: var(--text-heading, #FF0070);
+  color: var(--text-title, #FF0070);
   font-family: var(--font-family, "Arial Narrow", sans-serif);
   font-weight: 700;
   font-size: 18px;
