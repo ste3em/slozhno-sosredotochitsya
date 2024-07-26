@@ -5,7 +5,7 @@
 
 Состав репозитория:
 
-- автотесты ([test.yml](https://github.com/ste3em/slozhno-sosredotochitsya/actions/runs/9679874118/workflow/tests.yml));
+- автотесты ([test.yml](https://github.com/ste3em/slozhno-sosredotochitsya/actions/workflows/tests.yml));
 - [readme-файл](https://github.com/ste3em/slozhno-sosredotochitsya/blob/main/README.md);
 - html-страница сайта ([index.html](https://github.com/ste3em/slozhno-sosredotochitsya/blob/main/index.html)).
 
