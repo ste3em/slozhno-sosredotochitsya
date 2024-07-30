@@ -102,7 +102,7 @@
   top: 20px;
   right: 48px;
   color: var(--accent-color, #FF0070);
-  font-family: var(--font-family, "Arial Narrow", sans-serif);
+  font-family: var(--font-family), "Arial Narrow", sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -141,7 +141,7 @@
   width: calc(100vw - 54.2%);
   height: min-content;
   color: var(--text-title, #353430);
-  font-family: var(--font-family, "Arial Narrow", sans-serif);
+  font-family: var(--font-family), "Arial Narrow", sans-serif;
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
@@ -163,7 +163,7 @@
 .content__title {
   margin-block-end: 20px;
   color: var(--text-header, #FF0070);
-  font-family: var(--font-family, "Arial Narrow", sans-serif);
+  font-family: var(--font-family), "Arial Narrow", sans-serif;
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
@@ -184,7 +184,7 @@
 
 .content__headline {
   color: var(--text-title, #353430);
-  font-family: var(--font-family, "Arial Narrow", sans-serif);
+  font-family: var(--font-family), "Arial Narrow", sans-serif;
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
@@ -194,7 +194,7 @@
 .content__text {
   margin-block-start: 10px;
   color: var(--text-color, #F1B2CE);
-  font-family:  var(--font-family, "Arial Narrow", sans-serif);
+  font-family:  var(--font-family), "Arial Narrow", sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -236,7 +236,7 @@
 
 .content__caption {
   color: var(--text-title, #353430);
-  font-family: var(--font-family, "Arial Narrow", sans-serif);
+  font-family: var(--font-family), "Arial Narrow", sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -320,11 +320,11 @@
 
 .footer__title {
   color: var(--header-color, #DB00FF);
-  font-family: var(--font-family, "Arial Narrow", sans-serif);
+  font-family: var(--font-family), "Arial Narrow", sans-serif;
   font-weight: 700;
   font-size: var(--font-size);
   font-style: normal;
-  line-height: 0.82;
+  line-height: 82.5%;
 }
 
 .text-hadow {
@@ -339,9 +339,9 @@
 
 @media (width <= 768px) {
     
-  .page {
+  /* .page {
     background-size: auto 1024px;
-  }
+  } */
   
   /* .header {
     height: 1024px;
@@ -429,9 +429,9 @@
 }
 
 @media (width <= 620px) {
-  .page {
+  /* .page {
     background-size: auto 668px;
-  }
+  } */
   
   .header {
     /* height: var(--vh-normal); */
