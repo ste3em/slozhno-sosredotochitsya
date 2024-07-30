@@ -244,7 +244,6 @@
 }
 
 .content-image {
-  display: grid;
   margin-block-end: 60px;
   padding: 0 20px;
 }
@@ -254,6 +253,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-block-start: 20px;
+}
+
+.content-image_item {
+  display: grid;
 }
 
 .content-image_item:first-of-type {
