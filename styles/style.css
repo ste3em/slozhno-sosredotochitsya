@@ -4,6 +4,7 @@
 }
 
 .page {
+  height: var(--vh-normal);
   
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--background-color);
@@ -12,12 +13,11 @@
   background-position: center top;
   background-size: cover;
   background-attachment: fixed;
-  height: var(--vh-normal);
 }
 
 .header {
-  display: grid;
   position: relative;
+  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   height: var(--vh-normal);
@@ -244,6 +244,7 @@
 }
 
 .content-image {
+  display: grid;
   margin-block-end: 60px;
   padding: 0 20px;
 }
@@ -309,8 +310,8 @@
 }
 
 .footer {
-  display: flex;
   position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: var(--vh-normal);
