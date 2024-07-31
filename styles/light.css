@@ -35,6 +35,10 @@
     --background-color: #FFF1F7;
     --background-image: url(../images/cover-image-light.png);
     }
+
+    .theme_auto .rec {
+      visibility: hidden;
+    }
   }
 
   .theme_light .rec {
